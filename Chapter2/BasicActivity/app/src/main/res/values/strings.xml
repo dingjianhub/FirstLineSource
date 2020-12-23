@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">第二章 活动起步</string>
+    <string name="button_show_toast_text">Click to show toast.</string>
+    <string name="button_to_destroy_activity_text">Click to destroy activity.</string>
+    <string name="item_add_item_text">Add</string>
+    <string name="item_remove_item_text">Remove</string>
+</resources>
