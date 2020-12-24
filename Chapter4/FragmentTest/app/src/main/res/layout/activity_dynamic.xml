@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DynamicActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_left"
+        android:name="com.example.fragmenttest.fragment.LeftFragment"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frame_layout_right"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button_to_show_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_click_to_show_fragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_to_remove_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_click_to_remove_fragment"
+        android:textAllCaps="false" />
+
+</LinearLayout>
