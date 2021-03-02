@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chapter 2 Demo</string>
+    <string name="button_1">Check Toast Button</string>
+    <string name="button_2">Destroy Activity Button</string>
+    <string name="add_item_title">Add Item</string>
+    <string name="remove_item_title">Remove Item</string>
+    <string name="button_3">button_3</string>
+    <string name="button_4">uri_button</string>
+    <string name="button_5">tel_button</string>
+    <string name="button_6">intent_trans_data</string>
+    <string name="button_7">intent_destroy_trans_data</string>
+    <string name="button_8">button_8</string>
+</resources>

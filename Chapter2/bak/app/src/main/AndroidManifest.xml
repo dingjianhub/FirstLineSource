@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FourthActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Ch2Demo"> <!-- 这里的 Android 应用在手机上的名称 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 在使用中，Android Studio 过程中，会自动帮助注册 activity -->
+        <!-- 如果是显式地使用 Intent 那么不需要在 xml 中配置  <intent-filter> -->
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+
+                <!-- 隐式 Intent -->
+                <action android:name="com.example.chapter2.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdActivity"></activity>
+    </application>
+
+</manifest>
